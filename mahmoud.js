@@ -32,7 +32,7 @@ let tim = setInterval(function(){
 
     document.getElementById('minutes').innerHTML=minute;
 
-    if(minute == 100){
+    if(minute == 200){
         clearInterval(idInterval)
     }
     minute++;
